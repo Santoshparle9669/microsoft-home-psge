@@ -1,0 +1,408 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   /* border: 1px solid rebeccapurple; */
+}
+nav{
+    height: 50px;
+    display: flex;
+background-color: #fff;
+justify-content: space-around;
+padding: 0px px;
+}
+nav img{
+    height: 30px;
+
+}
+.primary li,.sec li{
+    list-style: none;
+    margin-left:20px ;
+
+}
+.primary,.sec,samp{
+    display:flex;
+    align-items: center;
+}
+.container{
+    background-image: url(./microsoft\ photo.avif);
+}
+.bg{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+}
+.search,.list,.cart,.us,.logo,.logo1{
+    display:none;
+}
+h3{
+    margin-left: 30px;
+}
+
+.img-section{
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 170px;
+   background-image: url(./microsoft\ photo.avif);
+
+}
+nav samp img{
+    display: block;
+}
+
+img,.responsiv{
+    display: none;
+}
+h1,p,.smap{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.for-one{
+    margin-top: 30px;
+    margin-left: 30px;
+   text-align: center;
+
+
+}
+h1{
+    font-size: 40px;
+}
+p,h3,a{
+    font-size: 18px;
+}
+.for-one a{
+
+text-decoration: none;
+border: 1px solid black;
+padding: 10px 20px;
+background-color: #0067b8;
+color: #fff;
+}
+.option{
+    height: 100vh;
+}
+.img-icon{
+display: flex;
+padding: 90px;
+justify-content: center;
+}
+.img-icon img{
+    display: block;
+    height: 40px;
+    width: 40px;
+  margin: 20px 70px;
+  text-align: center;
+  
+}
+section{
+    margin-left: 50px;
+
+}
+.product-container{
+   padding: 70px 50px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.leptop-card{
+    width: 330px;
+    min-height: 420px;
+}
+.leptop-card button{
+    padding: 10px 25px;
+    background-color:#ffb900;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px ;
+    border: none;
+}
+.lep-img img{
+    display: block;
+    height: 185px;
+}
+h4{
+margin-top: 10px;
+margin-bottom: 40px;
+}
+
+.leptop-card1{
+    width: 330px;
+    min-height: 420px;
+}
+
+.leptop-card1 button{
+    padding: 10px 25px;
+    background-color:#ffb900;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px ;
+    border: none;
+}
+.lep-img1 img{
+    display: block;
+    height: 185px;
+}
+
+
+ .leptop-card2{
+        width: 330px;
+        min-height: 420px;
+    }
+
+    .leptop-card2 button{
+        padding: 10px 25px;
+        background-color:#ffb900;
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 20px ;
+        border: none;
+    }
+    .lep-img2 img{
+        display: block;
+        height: 185px;
+    }
+    .leptop-card3{
+        width: 330px;
+        min-height: 420px;
+    }
+
+    .leptop-card3 button{
+        padding: 10px 25px;
+        background-color:#ffb900;
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 20px ;
+        border: none;
+    }
+    .lep-img3 img{
+        display: block;
+        height: 185px;
+    }
+    .container2{
+      height: 80vh;
+      padding: 20px 50px;
+     
+    }
+    .img-section2{
+        background-image: url(./remot.webp);
+        
+            background-size: cover;
+           
+   
+         padding: 170px;
+          
+        }
+        .lep-business img{
+            display: block;
+        }
+        .leptop-business button{
+    
+            background-color:#ffb900;
+            font-size: 18px;
+            margin-bottom: 10px;
+            margin-top: 20px ;
+            border: none;
+        }
+      .leptop-business{
+        width: 330px;
+  height: 600px;
+        
+      }
+      .lep-business img{
+        height: 185px;
+      }
+      .product-business{
+        display: flex;
+        padding: 15px 50px;
+        justify-content: space-between;
+        height:80vh;
+        /* background-color: #ffb900; */
+        
+      }
+    .for-business{
+        padding-left: 20px;
+      
+    }
+    .back-to-top{
+       
+        padding: 20px;
+        justify-items: space-between;
+        display: flex;
+    }
+ .follow a{
+    font-size: 25px;
+    margin-left:22px;
+    color: rgb(27, 26, 26);
+ }
+ .back-btn{
+   
+    height: 50px;
+    width: 100%;
+ }
+ .backs{
+    margin-bottom:200px;
+    font-size:16px;
+    height:35px;
+    width: 150px;
+    margin-left: 1370px;
+    color: rgb(9, 9, 9);
+    background-color: rgb(201, 204, 207);
+    border: none;
+ }
+ 
+ .last{
+    height: 70vh;
+    background-color: rgb(238, 238, 247);
+ }
+
+ .futar{
+    background-color: rgb(216, 212, 212);
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    padding:0px 40px;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-content:space-between;
+    
+}
+.table a{
+    text-decoration: none;
+    margin-top: 20px;
+    color:#616161;
+}
+.earth{
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 65px;
+    background-color: rgb(216, 212, 212);
+    
+    
+}
+.earth a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #616161;
+}
+
+
+    
+@media(max-width:768px){
+ .search,.list,.cart,.us{
+        display:block;
+    }
+    .primary,.sec{
+        display: none;
+    }
+    nav{
+        padding:0px 20px;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .li{
+        margin-left: 20px;
+    }
+    .us{
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    .search{
+      margin-left: 20px;
+      margin-right: 50px;
+    }
+  .logo,.logo1{
+    display: flex;
+   
+  }
+  .cart{
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 24px;
+  }
+  .img-section{
+    display: none;
+    height: 30vh;
+  }
+  img{
+    display: block;
+    height: 370px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  h1,p,.responsiv{
+    display: block;
+  }
+.img-icon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.img-icon{
+    align-items: center;
+}
+.product-container{
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.img-section2{
+    background-image: url(./gldn-XSS-Hero-Xbox-Series-S_VP1-539x440.jfif);
+    background-size:cover;
+        background-position:center;
+    
+      }
+      .container2{
+        height: 50vh;
+        padding: 0px 0px;
+      
+}
+.img-section2 .for-one{
+    display:none;
+
+}
+.img-section2 p{
+    display:none;
+}
+.img-section2 h1{
+    display:none;
+
+}
+.product-business{
+    display: flex;
+    padding: 15px 0px;
+    align-items:center;
+    flex-direction: column;
+    height: 290vh;
+    /* background-color: #ffb900; */
+    
+  }
+  .lep-business img{
+    height: 200px;
+    width: 100%;
+  }
+  .for-business{
+    text-align: center;
+    padding: 0%;
+  }
+  .futar{
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .table{
+    display: flex;
+    flex-direction: column;
+  }
